@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between rows */
+}
+
+.ul {
+  width: 100%; /* Make the table take full width */
+  margin: 0 auto;
+  border-collapse: collapse; /* Remove gaps between table cells */
+}
+
+.ul th, .ul td {
+  border: 1px solid #ddd; /* Add border to table cells */
+  padding: 8px;
+  text-align: center; /* Center-align text */
+}
+
+.ul1 {
+  width: 100%; /* Make the header table take full width */
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.b1 {
+  width: auto;
+  padding: 5px 10px;
+  margin: 0 5px; /* Add spacing between buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.th1, .thname, .thname1, .thb {
+  text-align: center;
+}
+
+.thname {
+  width: 20%;
+}
+
+.thname1 {
+  width: 40%;
+}
+
+.thb {
+  width: 30%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .ul, .ul1 {
+    width: 100%; /* Ensure tables take full width on smaller screens */
+  }
+
+  .ul th, .ul td {
+    font-size: 14px; /* Reduce font size for smaller screens */
+    padding: 6px; /* Reduce padding for smaller screens */
+  }
+
+  .b1 {
+    padding: 4px 8px; /* Adjust button padding for smaller screens */
+    font-size: 12px; /* Reduce button font size */
+  }
+
+  .container {
+    flex-direction: column; /* Stack rows vertically on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .ul th, .ul td {
+    font-size: 12px; /* Further reduce font size for very small screens */
+    padding: 4px; /* Further reduce padding */
+  }
+
+  .b1 {
+    padding: 3px 6px; /* Adjust button padding for very small screens */
+    font-size: 10px; /* Further reduce button font size */
+  }
+}
+
+
+.load{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
