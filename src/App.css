@@ -2,23 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px; /* Add spacing between rows */
+  margin-bottom: 10px; 
 }
 
 .ul {
-  width: 100%; /* Make the table take full width */
+  width: 100%;
   margin: 0 auto;
-  border-collapse: collapse; /* Remove gaps between table cells */
+  border-collapse: collapse; 
 }
 
 .ul th, .ul td {
-  border: 1px solid #ddd; /* Add border to table cells */
+  border: 1px solid #ddd;
   padding: 8px;
-  text-align: center; /* Center-align text */
+  text-align: center; 
 }
 
 .ul1 {
-  width: 100%; /* Make the header table take full width */
+  width: 100%; 
   margin: 0 auto;
   border-collapse: collapse;
 }
@@ -26,8 +26,8 @@
 .b1 {
   width: auto;
   padding: 5px 10px;
-  margin: 0 5px; /* Add spacing between buttons */
-  cursor: pointer; /* Change cursor to pointer on hover */
+  margin: 0 5px; 
+  cursor: pointer; 
 }
 
 .th1, .thname, .thname1, .thb {
@@ -46,36 +46,35 @@
   width: 30%;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .ul, .ul1 {
-    width: 100%; /* Ensure tables take full width on smaller screens */
+    width: 100%; 
   }
+}
 
   .ul th, .ul td {
-    font-size: 14px; /* Reduce font size for smaller screens */
-    padding: 6px; /* Reduce padding for smaller screens */
+    font-size: 14px;
+    padding: 6px;
   }
 
   .b1 {
-    padding: 4px 8px; /* Adjust button padding for smaller screens */
-    font-size: 12px; /* Reduce button font size */
+    padding: 4px 8px; 
+    font-size: 12px;
   }
 
   .container {
-    flex-direction: column; /* Stack rows vertically on smaller screens */
-  }
+    flex-direction: column; 
 }
 
 @media (max-width: 480px) {
   .ul th, .ul td {
-    font-size: 12px; /* Further reduce font size for very small screens */
-    padding: 4px; /* Further reduce padding */
+    font-size: 12px; 
+    padding: 4px;
   }
 
   .b1 {
-    padding: 3px 6px; /* Adjust button padding for very small screens */
-    font-size: 10px; /* Further reduce button font size */
+    padding: 3px 6px;
+    font-size: 10px; 
   }
 }
 
